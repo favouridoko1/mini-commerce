@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 150.00,
+    "description": "High quality wireless headphones with noise cancellation.",
+    "image": "assets/images/headphones.jpg",
+    "category": "electronics",
+    "stock": 20
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X",
+    "price": 799.00,
+    "description": "Latest-gen smartphone with OLED display and powerful camera.",
+    "image": "assets/images/smartphone.jpg",
+    "category": "electronics",
+    "stock": 12
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 95.50,
+    "description": "Lightweight and durable running shoes for everyday workouts.",
+    "image": "assets/images/shoes.jpg",
+    "category": "fashion",
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "name": "Backpack",
+    "price": 45.99,
+    "description": "Spacious backpack with multiple compartments for daily use.",
+    "image": "assets/images/backpack.jpg",
+    "category": "accessories",
+    "stock": 50
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 60.00,
+    "description": "Portable speaker with deep bass and 10-hour battery life.",
+    "image": "assets/images/speaker.jpg",
+    "category": "electronics",
+    "stock": 15
+  },
+  {
+    "id": 6,
+    "name": "Fitness Watch",
+    "price": 129.99,
+    "description": "Track your workouts, sleep, and heart rate with this fitness watch.",
+    "image": "assets/images/fitness-watch.jpg",
+    "category": "electronics",
+    "stock": 22
+  },
+  {
+    "id": 7,
+    "name": "Sunglasses",
+    "price": 35.00,
+    "description": "Stylish UV-protected sunglasses for all-day outdoor comfort.",
+    "image": "assets/images/sunglasses.jpg",
+    "category": "fashion",
+    "stock": 40
+  },
+  {
+    "id": 8,
+    "name": "Laptop Stand",
+    "price": 39.90,
+    "description": "Ergonomic adjustable laptop stand for better posture and cooling.",
+    "image": "assets/images/laptop-stand.jpg",
+    "category": "accessories",
+    "stock": 25
+  }
+]
