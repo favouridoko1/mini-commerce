@@ -1,2 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+@layer components {
+  .toast-success {
+    @apply bg-green-500 text-white px-4 py-2 rounded shadow;
+  }
+  .toast-error {
+    @apply bg-red-500 text-white px-4 py-2 rounded shadow;
+  }
+}
