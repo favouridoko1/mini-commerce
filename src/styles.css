@@ -1,11 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
 
-@layer components {
-  .toast-success {
-    @apply bg-green-500 text-white px-4 py-2 rounded shadow;
-  }
-  .toast-error {
-    @apply bg-red-500 text-white px-4 py-2 rounded shadow;
-  }
+:root {
+  --toastify-color-success: #22c55e; /* Tailwind green-500 */
+  --toastify-color-error: #ef4444;   /* Tailwind red-500 */
+  --toastify-color-info: #3b82f6;    /* Tailwind blue-500 */
 }
+
+.toast-success {
+  @apply bg-green-500 text-white rounded-md px-4 py-2 shadow-lg;
+}
+
+.toast-error {
+  @apply bg-red-500 text-white rounded-md px-4 py-2 shadow-lg;
+}
+
+.toast-info {
+  @apply bg-blue-500 text-white rounded-md px-4 py-2 shadow-lg;
+}
+
+/* Aligning toast like React Toastify */
+.toast-top-right {
+  @apply fixed top-5 right-5 z-[9999];
+}
+

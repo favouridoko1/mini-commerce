@@ -10,10 +10,18 @@ bootstrapApplication(AppComponent, {
   ...appConfig,
   providers: [
     ...appConfig.providers,
-    provideAnimations(), // 💡 Required
-    importProvidersFrom(ToastrModule.forRoot({
-      positionClass: 'toast-top-right',
-      preventDuplicates: true
-    }))
+    provideAnimations(),
+    importProvidersFrom(
+      ToastrModule.forRoot({
+        positionClass: 'toast-top-right',
+        timeOut: 3000,
+        closeButton: true,
+        progressBar: true,
+        tapToDismiss: true,
+        preventDuplicates: true,
+        newestOnTop: true,
+      })
+    )
   ]
 });
+
